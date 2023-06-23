@@ -1,7 +1,6 @@
 "use client"
 import Scene from '@/components/canvas/Scene'
 import Items from '@/components/canvas/Items'
-import Drawer from '@/components/dom/Drawer'
 import Border from '@/components/dom/Border'
 
 export default function Page() {

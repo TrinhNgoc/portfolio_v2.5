@@ -14,11 +14,11 @@ const geometry = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0, 
 export const state = proxy({
   clicked: null,
   urls: [
-    { url: './img/zzf-1.PNG', text: 'Built with Next.js and Tailwind CSS', header: 'Zane Zone Fitness', link: 'https://zane-zone-fitness.vercel.app/' },
-    { url: './img/waimeavalley.PNG', text: 'Built with Squarespace, CSS, and Javascript', header: 'Waimea Valley', link: 'https://www.waimeavalley.net/' },
-    { url: './img/Netflix-1.PNG', text: 'Built with Typescript, Next.js, NextAuth, Tailwind CSS, MongoDB, Prisma, React SWR data fetching', header: 'Netflix Clone', link: 'https://net-site-clone.vercel.app/' },
-    { url: './img/imitours.PNG', text: 'Built with ExpressionEngine, Javascript, jQuery, CSS', header: 'Imi Tours', link: 'https://imitours.com/' },
-    { url: './img/rx7.PNG', text: 'Rx7 model rendered with Three.js, React Three Fiber, and Drei', header: 'Rx7', link: 'https://rx7.vercel.app/' },
+    { url: '/img/zzf-1.PNG', text: 'Built with Next.js and Tailwind CSS', header: 'Zane Zone Fitness', link: 'https://zane-zone-fitness.vercel.app/' },
+    { url: '/img/waimeavalley.PNG', text: 'Built with Squarespace, CSS, and Javascript', header: 'Waimea Valley', link: 'https://www.waimeavalley.net/' },
+    { url: '/img/Netflix-1.PNG', text: 'Built with Typescript, Next.js, NextAuth, Tailwind CSS, MongoDB, Prisma, React SWR data fetching', header: 'Netflix Clone', link: 'https://net-site-clone.vercel.app/' },
+    { url: '/img/imitours.PNG', text: 'Built with ExpressionEngine, Javascript, jQuery, CSS', header: 'Imi Tours', link: 'https://imitours.com/' },
+    { url: '/img/rx7.PNG', text: 'Rx7 model rendered with Three.js, React Three Fiber, and Drei', header: 'Rx7', link: 'https://rx7.vercel.app/' },
   ]
 })
 
